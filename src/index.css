@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(250, 235, 215, 0.416);
+  color: rgba(45, 30, 30, 0.854);
+  font-family: sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  height: 75vh;
+  max-width: 1000px;
+  background-color: gainsboro;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+}
+
+.poky {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  max-height: 200px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(27, 26, 26, 0.852);
+  color: white;
+  margin: 20px;
+}
